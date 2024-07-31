@@ -3,8 +3,8 @@ export default {
     home: "Home",
     faq: "Faq",
     competitions: "Competitions Site",
-    english: "English",
-    french: "French",
+    english: "🇺🇸 English",
+    french: "🇫🇷 French",
   },
   header: {
     title:

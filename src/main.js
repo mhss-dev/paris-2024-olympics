@@ -3,7 +3,7 @@ import { createI18n } from 'vue-i18n'
 import messages from '@/i18n'
 import App from './App.vue';
 import "bootstrap/dist/css/bootstrap.min.css";
-import 'bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import router from './router';
 
 

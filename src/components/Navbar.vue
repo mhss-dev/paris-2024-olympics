@@ -7,7 +7,7 @@
         <ul class="nav nav-pills mb-0">
           <li class="nav-item">
             <router-link to="/" class="nav-link text-white" aria-current="page">
-              {{ $t("navbar.home") }}
+              <i class="fas fa-home"></i> {{ $t("navbar.home") }}
             </router-link>
           </li>
           <li class="nav-item">
@@ -15,26 +15,31 @@
               :to="{ path: '/', hash: '#competitions' }"
               class="nav-link text-white"
             >
-              {{ $t("navbar.competitions") }}
+            <i class="fas fa-trophy"></i> {{ $t("navbar.competitions") }}
             </router-link>
           </li>
           <li class="nav-item">
             <router-link
               :to="{ path: '/', hash: '#faq' }"
-              class="nav-link text-white"
-            >
-              {{ $t("navbar.faq") }}
+              class="nav-link text-white">
+            <i class="fas fa-question-circle"></i> {{ $t("navbar.faq") }}
             </router-link>
           </li>
         </ul>
         <div class="d-flex gap-3">
-          <a class="nav-link text-white" @click="switchLanguage('en')"
-            >Anglais</a
-          >
-          <a class="nav-link text-white" @click="switchLanguage('fr')"
-            >Français</a
-          >
-        </div>
+    <a
+      class="nav-link text-white"
+      :class="{ active: currentLocale === 'en' }"
+      @click="switchLanguage('en')"
+    >
+      {{ $t('navbar.english') }}
+    </a>
+    <a
+      class="nav-link text-white" @click="switchLanguage('fr')"
+>
+      {{ $t('navbar.french') }}
+    </a>
+  </div>
       </div>
     </nav>
   </div>
