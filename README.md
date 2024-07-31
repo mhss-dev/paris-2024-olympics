@@ -1,31 +1,12 @@
-# paris2024
+# Intégration de l'API Paris 2024 avec Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet démontre ma capacité à intégrer l'API Paris 2024 avec Vue.js pour créer une application web propre et réactive. 
+En utilisant Vue.js, j'ai développé une plateforme simple mais élégante qui affiche les données olympiques de manière fluide et harmonieuse.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Technologies utilisées
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# paris2024
-# paris-2024-olympics
+- **Vue.js :** Framework JavaScript pour construire l'interface utilisateur.
+- **Axios :** Librairie pour effectuer des requêtes HTTP à l'API.
+- **Bootstrap Vue :** Framework CSS pour un design moderne et réactif.
+- **API Paris 2024 :** [Récupération des données Paris 2024 Data](https://data.paris2024.org/)
