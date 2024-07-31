@@ -10,3 +10,5 @@ En utilisant Vue.js, j'ai développé une plateforme simple mais élégante qui 
 - **Axios :** Librairie pour effectuer des requêtes HTTP à l'API.
 - **Bootstrap Vue :** Framework CSS pour un design moderne et réactif.
 - **API Paris 2024 :** [Récupération des données Paris 2024 Data](https://data.paris2024.org/)
+
+ [Live preview](https://mhss-paris2024.netlify.app/)
