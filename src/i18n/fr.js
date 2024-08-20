@@ -3,8 +3,8 @@ export default {
     home: "Accueil",
     faq: "Faq",
     competitions: "Site de compétions",
-    english: "🇺🇸 Anglais",
-    french: "🇫🇷 Français",
+    english: "Anglais",
+    french: "Français",
   },
   header: {
     title:

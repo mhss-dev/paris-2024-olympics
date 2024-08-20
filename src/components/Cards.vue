@@ -8,8 +8,8 @@
     <div class="row justify-content-center">
       <div v-for="site in paginatedSites" class="col-lg-4 col-md-6 mb-4">
         <div class="card border-0 shadow-lg rounded-lg h-100">
-          <!-- <img :src="getImage(site.picture)"  -->
-      <!-- class="card-img-top img-fluid" alt="Site Image"/>       -->
+          <!-- <img :src="getImage(site.picture)"
+           class="card-img-top img-fluid"/> -->
           <div class="card-body d-flex flex-column">
             <h5 class="card-title text-center">{{ site.title }}</h5>
             <p class="card-text text-muted text-center">{{ site.subtitle }}</p>

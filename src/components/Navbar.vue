@@ -30,13 +30,14 @@
     <a
       class="nav-link text-white"
       :class="{ active: currentLocale === 'en' }"
-      @click="switchLanguage('en')"
-    >
+      @click="switchLanguage('en')">
+      <span class="flag-icon flag-icon-us"></span>
+
       {{ $t('navbar.english') }}
     </a>
     <a
-      class="nav-link text-white" @click="switchLanguage('fr')"
->
+      class="nav-link text-white" @click="switchLanguage('fr')">
+      <span class="flag-icon flag-icon-fr"></span>
       {{ $t('navbar.french') }}
     </a>
   </div>
