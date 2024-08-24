@@ -12,4 +12,4 @@ En utilisant Vue.js, j'ai développé une plateforme simple mais élégante qui 
 - **API Paris 2024 :** [Récupération des données Paris 2024 Data](https://data.paris2024.org/)
 
 ##
-[Live Preview](https://mhss-paris2024.netlify.app/)
+[Live demo](https://mhss-paris2024.netlify.app/)
